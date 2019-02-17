@@ -1,0 +1,88 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 80px 0 0 0;
+}
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+}
+.nav_row {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  top: 0;
+  position: fixed;
+  float: left;
+  margin: 0;
+}
+.brand_logo {
+  width: 30%;
+  height: 80px;
+  float: left;
+  text-align: right !important;
+}
+.clearfix::before {
+  overflow: auto;
+  display: inline-block;
+}
+.main_navigation {
+  width: 65%;
+  height: 80px;
+  background-color: white;
+  float: left;
+  padding-left: 5%;
+  font-size: 0;
+}
+.main_navigation ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.main_navigation ul li {
+  list-style: none;
+  width: auto;
+  display: inline-block;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 80px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main_navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+}
+.main_navigation ul li a:hover {
+  color: skyblue;
+}
+.main_navigation ul.active {
+  color: skyblue;
+}
+.main_navigation ul ul {
+  display: none;
+}
+.main_content {
+  margin-top: 120px;
+  width: 100%;
+  height: 400px;
+  float: left;
+  border-top: 1px solid black;
+  border-bottom: solid 1px black;
+}
+
+/* mobile or small screens adaptations */
+@media only screen and (max-width: 950px) {
+}

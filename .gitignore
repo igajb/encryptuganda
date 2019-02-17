@@ -1,0 +1,8 @@
+node_modules
+vendor
+composer.lock
+composer-lock.json
+package.json
+package-lock.json
+.eslintrc.js
+assets/partial_templates/config.php
