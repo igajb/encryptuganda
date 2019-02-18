@@ -53,19 +53,20 @@ body {
   background-color: white;
   padding-left: 5%;
   font-size: 0;
+  margin-top: 30px;
 }
 .main_navigation ul {
   padding: 0;
   margin: 0;
   display: block;
+  background-color: #e3e3e3;
+  position: relative;
 }
 .main_navigation ul li {
+  margin-right: 15px;
   list-style: none;
   width: auto;
   display: inline-block;
-  margin-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
   line-height: 80px;
   font-size: 16px;
   font-weight: 500;
@@ -73,17 +74,42 @@ body {
 .main_navigation ul li a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: #292929;
   font-size: 1.4em;
 }
+.main_navigation ul li:hover {
+  background-color: lightgray;
+}
 .main_navigation ul li a:hover {
-  color: skyblue;
+  color: #222;
 }
 .main_navigation ul.active {
   color: skyblue;
 }
 .main_navigation ul ul {
+  height: 50px;
   display: none;
+  position: absolute;
+  min-width: 100px;
+  background-color: #d3d3d3;
+  padding: 0;
+  margin: 0;
+}
+.main_navigation ul ul li {
+  margin: 0;
+  display: block;
+  background-color: #e3e3e3;
+  text-align: center;
+}
+.main_navigation ul li:hover ul {
+  display: block;
+}
+hr {
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #d3d3d3;
 }
 .main_content {
   margin-top: 80px;

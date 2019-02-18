@@ -31,16 +31,22 @@ require_once "./assets/master_templates/main_header.php";
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About Us</a>
                 <ul>
+                    <hr>
                     <li><a href="#">Who We Are</a></li>
+                    <hr>
                     <li><a href="#">Our Mission</a></li>
                 </ul>
             </li>
             <li><a href="#">What We Do</a>
             <!-- inner links -->
                 <ul>
+                    <hr>
                     <li><a href="#" >Capacity Building</a></li>
+                    <hr>
                     <li><a href="#" >Digital Security</a></li>
+                    <hr>
                     <li><a href="#" >Cyber Rights Protection</a></li>
+                    <hr>
                     <li><a href="#" >Information Systems Enhancements</a></li>
                 </ul>
             </li>
@@ -50,7 +56,9 @@ require_once "./assets/master_templates/main_header.php";
             <li><a href="#">Contact us</a>
             <!-- inner links -->
                 <ul>
+                    <hr>
                     <li><a href="#">Share Feedback</a></li>
+                    <hr>
                     <li><a href="#">Subscribe To Mailing List</a></li>
                 </ul>
             </li>
