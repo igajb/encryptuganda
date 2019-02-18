@@ -21,12 +21,12 @@ require_once "./assets/master_templates/main_header.php";
     <!-- nav wrapper -->
 <div class="nav_row clearfix">
     <!-- log element -->
-    <div class="brand_logo clearfix">
+    <div class="brand_logo left">
         <a href=""><img src="/assets/imgs/mainlogo.png" alt="Encrypt Uganda"></a>
     </div>
     <!-- log element end -->
     <!-- navigation links -->
-    <div class="main_navigation">
+    <div class="main_navigation right">
         <ul>
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About Us</a>
