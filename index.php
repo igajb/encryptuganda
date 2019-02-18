@@ -61,7 +61,6 @@ require_once "./assets/master_templates/main_header.php";
 <!-- nav wrapper end -->
 <!-- main content -->
 <div class="main_content">
-<h2>Page Images</h2>
 </div>
 <!-- main content end -->
 </div>
