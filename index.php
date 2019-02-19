@@ -29,7 +29,7 @@ require_once "./assets/master_templates/main_header.php";
     <div class="main_navigation right">
         <ul>
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Us</a>
+            <li><a href="#"> About Us <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
                 <ul>
                     <hr>
                     <li><a href="#">Who We Are</a></li>
@@ -37,10 +37,10 @@ require_once "./assets/master_templates/main_header.php";
                     <li><a href="#">Our Mission</a></li>
                 </ul>
             </li>
-            <li><a href="#">What We Do</a>
+            <li><a href="#"> What We Do <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
             <!-- inner links -->
                 <ul>
-                    <hr>
+                    <!-- <hr> -->
                     <li><a href="#" >Capacity Building</a></li>
                     <hr>
                     <li><a href="#" >Digital Security</a></li>
@@ -53,13 +53,13 @@ require_once "./assets/master_templates/main_header.php";
             <li><a href="#">Cyber Laws</a></li>
             <li><a href="#">Encrypt Lab</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact us</a>
+            <li><a href="#">Contact us <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
             <!-- inner links -->
                 <ul>
-                    <hr>
+                    <!-- <hr> -->
                     <li><a href="#">Share Feedback</a></li>
                     <hr>
-                    <li><a href="#">Subscribe To Mailing List</a></li>
+                    <li><a href="#">Subscribe To Mailing list</a></li>
                 </ul>
             </li>
         </ul>
