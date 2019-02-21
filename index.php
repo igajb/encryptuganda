@@ -69,7 +69,14 @@ require_once "./assets/master_templates/main_header.php";
 <!-- nav wrapper end -->
 <!-- main content -->
 <div class="main_content">
+    <div class="image-holder">
+
+    </div>
+
 </div>
+<footer>
+    <h1>This is the footer</h1>
+</footer>
 <!-- main content end -->
 </div>
 <!-- main wrapper end -->
