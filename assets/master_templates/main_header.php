@@ -20,8 +20,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <title><?php echo $title; ?></title>
     <meta name="description" content="">
-    <link rel="shortcut icon" href="../../assets/imgs/logo.png" type="image/png" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $base_url; ?>assets/css/custom.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="../../assets/imgs/logo.png" type="image/png" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    <link href="<?php echo $base_url; ?>assets/css/custom.css" rel="stylesheet" type="text/css">
 </head>
 <body>
