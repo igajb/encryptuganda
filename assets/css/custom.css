@@ -20,15 +20,13 @@ nav.black {
   transition: 0.3s;
 }
 nav .logo {
-  /* padding: 22px 20px;
-  height: 80px; */
   float: left;
   font-size: 20px;
-  transition: 0.3s;
+  transition: 0.3s ease-out;
 }
 .logo img {
-  border-radius: 10px;
-  height: 100px;
+  border-radius: 2px;
+  height: 90px;
   transition: 0.3s;
 }
 nav.black .logo img {
@@ -41,9 +39,7 @@ nav.black .logo {
 }
 nav ul {
   list-style: none;
-  float: right;
-  padding: 0;
-  margin: 0;
+  float: left;
   display: flex;
 }
 nav ul li {
@@ -51,16 +47,18 @@ nav ul li {
   display: block;
 }
 nav ul li a {
-  line-height: 80px;
+  line-height: 50px;
   color: #151515;
   padding: 12px 30px;
   text-decoration: none;
   text-transform: capitalize;
   transition: 0.3s;
+  font-weight: bold;
 }
 nav.black ul li a {
   color: #fff;
   transition: 0.3s;
+  font-weight: bold;
 }
 nav ul li a:focus {
   outline: none;
@@ -73,7 +71,7 @@ nav ul li a:active {
 section.sec1 {
   width: 100%;
   height: 100vh;
-  background: url("/assets/imgs/datacenter5.jpg");
+  background: url("/assets/imgs/datacenter8.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -86,4 +84,7 @@ section.sec1 {
   text-align: justify;
   font-size: 20px;
   line-height: 30px;
+}
+.main-content {
+  padding-top: 100px;
 }

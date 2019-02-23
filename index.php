@@ -33,7 +33,11 @@ require "./assets/master_templates/main_header.php";
             <li><a href="">Contact Us</a></li>
         </ul>
     </nav>
-    <section class="sec1"></section>
+    <section class="sec1">
+        <div class="main-content">
+            <h1>My main content</h1>
+        </div>
+    </section>
     <section class="content">
         <p>
         What is Lorem Ipsum?
